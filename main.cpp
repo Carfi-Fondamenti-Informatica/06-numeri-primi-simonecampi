@@ -1,17 +1,21 @@
 #include <iostream>
-#include "lib.h"
-using namespace std;
+	#include "lib.h"
+	
 
-int main(){
-  int a;
-  bool b;
-  
-  cin>>a;
-  b=primi(a);
-  
-  if(b==true)
-    cout<<"numero primo"<<endl;
-  else if(b==false)
-    cout<<"numero primo"<<endl;
-  return 0;
-}
+	using namespace std;
+	
+
+	int main(){
+	   int n = 0, i=2;
+	        cin>>n;
+	if (primo(n,i)==true)
+	{
+	    cout<<"numero primo"<<endl;
+	}
+	if (primo(n,i)==false)
+	{
+	    cout<<"numero non primo"<<endl;
+	}
+	  
+	  return 0;
+	}
